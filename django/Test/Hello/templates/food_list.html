@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Food List</h1>
+    <ul>
+        {% for food infoods %}
+            <li>{{ food.name }} - {{ food.price }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
